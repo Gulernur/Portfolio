@@ -85,7 +85,7 @@ ul{
 }
 
 .aside .logo a::before {
-    content: '';
+    content: ''; /* It is used to set the content of a pseudo-element, such as ::before or ::after, to an empty string */
     position: absolute;
     width: 20px;
     height: 20px;
@@ -96,7 +96,7 @@ ul{
 }
 
 .aside .logo a::after {
-    content: '';
+    content: ''; /* It is used to set the content of a pseudo-element, such as ::before or ::after, to an empty string */
     position: absolute;
     width: 20px;
     height: 20px;
@@ -110,7 +110,7 @@ ul{
     height: 40px;
     width: 45px;
     border: 1px solid var(--bg-black-50);
-    cursor: pointer;
+    cursor: pointer; /* Sets the appearance of the mouse cursor when it hovers over an HTML element to the "pointer" shape */
     position: fixed;
     left: 300px;
     top: 20px;
@@ -132,7 +132,7 @@ ul{
 
 /* makes the second line of the "burger"*/
 .aside .nav-toggler span::before {
-    content: '';
+    content: ''; /* It is used to set the content of a pseudo-element, such as ::before or ::after, to an empty string */
     height: 2px;
     width: 18px;
     background: var(--skin-color);
@@ -143,7 +143,7 @@ ul{
 
 /* makes the third line of the "burger"*/
 .aside .nav-toggler span::after {
-    content: '';
+    content: ''; /* It is used to set the content of a pseudo-element, such as ::before or ::after, to an empty string */
     height: 2px;
     width: 18px;
     background: var(--skin-color);
