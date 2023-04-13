@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
 
-:root /* This makes propeties in CSS */ {
+/* This makes propeties in CSS */
+:root {
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
@@ -14,7 +15,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-* /* This is a universal selector that targets all elements on a webpage, it applies the styles to every single HTML element */ {
+/* This is a universal selector that targets all elements on a webpage, it applies the styles to every single HTML element */
+* {
     margin: 0;
     padding: 0;
     outline: none;
@@ -26,7 +28,8 @@ ul{
     list-style: none;
 }
 
-::before,::after /* This allows you to add content before and after an element's content */ {
+/* This allows you to add content before and after an element's content */
+::before,::after {
     box-sizing: border-box;
 }
 
@@ -56,9 +59,20 @@ ul{
     z-index: 10;
 }
 
-.aside .logo {
+/* This targets an HTML element with a class of "logo" that is a descendant of another HTML element with a class of "aside". The space between the two class names indicates that the element with the "logo" class is nested within the element with the "aside" class */
+.aside .logo 
+{
     position: absolute;
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
+}
+
+/* This targets an HTML a (link) element that is a child of an HTML element with a class of "logo", which is itself a descendant of an HTML element with a class of "aside" */
+.aside .logo a{
+    color: var(--text-black-900);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
 }
