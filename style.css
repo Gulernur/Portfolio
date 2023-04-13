@@ -9,10 +9,9 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 * /* This is a universal selector that targets all elements on a webpage, it applies the styles to every single HTML element */ {
