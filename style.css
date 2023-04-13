@@ -75,4 +75,10 @@ ul{
     padding: 15px 20px;
     font-size: 30px;
     letter-spacing: 5px;
+    position: relative;
+}
+
+.aside .logo a span{
+    font-family: 'Clicker Script', cursive;
+    font-family: 40px;
 }
