@@ -65,6 +65,24 @@ ul{
     position: relative;
 }
 
+/* This makes button rounded and colored */
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px; /* Rounds out the button */
+    display: inline-block;
+    white-space: nowrap;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+/* This makes button reative when cursor points at it */
+.btn:hover {
+    transform: scale(1.05);
+}
+
 /* ASIDE */
 
 .aside {
